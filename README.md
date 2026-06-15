@@ -8,7 +8,7 @@ Your branch is up to date with 'origin/ft/team-page'.
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout main
 Switched to branch 'main'
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git branch ft/contact-page
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git switch ft/team-page
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git switch ft/team-page // question 1
 Switched to branch 'ft/team-page'
 Your branch is up to date with 'origin/ft/team-page'.
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git log
@@ -42,7 +42,7 @@ If you wish to commit it anyway, use:
 
     git commit --allow-empty
 
-Otherwise, please use 'git cherry-pick --skip'
+Otherwise, please use 'git cherry-pick --skip' // question 6
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout ft/conatct-page
 error: pathspec 'ft/conatct-page' did not match any file(s) known to git
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout ft/contact-page
@@ -66,7 +66,7 @@ remote:      https://github.com/ora-nova/git-exercises/pull/new/ft/contact-page
 remote: 
 To https://github.com/ora-nova/git-exercises
  * [new branch]      ft/contact-page -> ft/contact-page
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git branch ft/faq-page
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git branch ft/faq-page // question 9
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout ft/faq-page
 Switched to branch 'ft/faq-page'
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git add faq.html
@@ -87,7 +87,7 @@ remote:      https://github.com/ora-nova/git-exercises/pull/new/ft/faq-page
 remote: 
 To https://github.com/ora-nova/git-exercises
  * [new branch]      ft/faq-page -> ft/faq-page
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout ft/team-page
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout ft/team-page // question 12
 Switched to branch 'ft/team-page'
 Your branch is up to date with 'origin/ft/team-page'.
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git revert 0353690 
@@ -104,10 +104,10 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 `````
 exercise2
 `````
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git branch ft/home-page-redesign
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout main
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git branch ft/home-page-redesign // question 1
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout main // question2
 Switched to branch 'main'
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git add team.html
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git add team.html // question 3
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git commit -m "updated team.html"
 [main 8e6c048] updated team.html
  1 file changed, 1 insertion(+)
@@ -131,7 +131,7 @@ From https://github.com/ora-nova/git-exercises
 Already up to date.
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git checkout ft/home-page-redesign
 Switched to branch 'ft/home-page-redesign'
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git rebase main
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git rebase main// question 5
 Auto-merging team.html
 CONFLICT (content): Merge conflict in team.html
 error: could not apply e643f1f... Revert "update"
@@ -151,11 +151,11 @@ To https://github.com/ora-nova/git-exercises
    0353690..e643f1f  ft/team-page -> ft/team-page
 PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git add home.html
  
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git  commit -m "home page"
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git  commit -m "home page"// question 6
 [ft/home-page-redesign feab4cd] home page
  1 file changed, 11 insertions(+)
  create mode 100644 home.html
-PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git push origin ft/home-page-redesign
+PS C:\Users\tech heaven\OneDrive\Desktop\git exrcise> git push origin ft/home-page-redesign // question 7
 Enumerating objects: 8, done.
 Counting objects: 100% (8/8), done.
 Delta compression using up to 2 threads
@@ -170,3 +170,5 @@ remote:
 To https://github.com/ora-nova/git-exercises
  * [new branch]      ft/home-page-redesign -> ft/home-page-redesign
 `````
+Bundle 4 exercise 1
+
