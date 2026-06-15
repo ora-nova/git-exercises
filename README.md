@@ -137,7 +137,7 @@ exercise 2
 ```````
 <!-- START: Bundle 5 Exercise 2 -->
 # Question 1
-git clone https://github.com/your-username/git-cafe-exercise
+git clone https://github.com/ora-nova/git-cafe-exercise
 
 # Question 2
 cd git-cafe-exercise
